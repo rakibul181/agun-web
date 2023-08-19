@@ -1,12 +1,13 @@
 body {
-    background-color: #FFC812;
+    background-color: #313866;
     width: 700px;
     margin: 0 auto;
+    padding-bottom: 50px;
   }
   
   header {
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0 5px 0px;
   }
   
   header img {
@@ -25,6 +26,10 @@ body {
     background-color: #D9D9D9;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 0;
+  }
+  nav ul li:hover{
+    color: #3c0099 ;
+
   }
   
   nav ul li {
@@ -55,3 +60,255 @@ body {
   .home{
     padding-left: 10px;
   }
+
+  .licenseinfo{
+    background-color: #393939;
+    border: 1px solid #000;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .title{
+    font-size: 36px;
+    color: #efefef;
+    padding: 10px;
+    background-image: url(images/Info.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    text-align: left;
+    padding-left: 50px;
+    background-color: #292929;
+     
+  }
+
+  .title h4{
+    margin: 0;
+  }
+  .body{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .contant{
+    font-family: courier new,Courier,monospace;
+    background-color: #fbfedf;
+    padding: 10px;
+    border: 1px solid #f93;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+  }
+
+
+  /* SERVICE */
+  
+  /* Common styles for both tables and form inputs */
+table, input[type="text"], input[type="password"], textarea, select {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-size: 12px;
+    border: 1px solid #999;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Form table styles */
+table.forms {
+    background-color: #e7e7e7;
+    margin: auto;
+    padding: 4px;
+}
+
+table.forms th, table.forms td {
+    padding: 8px;
+    margin: 0;
+}
+
+table.forms th {
+    font-weight: 400;
+    text-align: right;
+    width: 50%;
+}
+
+table.forms td {
+    text-align: left;
+}
+
+table.forms td.center {
+    text-align: center;
+}
+
+table.forms th.title {
+    background-image: url(boxtitlebg.png);
+    height: 27px;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+table.forms th.subtitle {
+    text-align: center;
+    background-color: #43409c;
+    color: #fff;
+}
+
+table.forms td.footer {
+    text-align: center;
+}
+
+table.forms input[type="submit"],
+table.forms input[type="button"],
+div#licenseinfo input[type="button"] {
+    height: 37px;
+    border: 1px solid #000;
+    border-radius: 7px;
+    background-image: url(button-bg.png);
+    min-width: 100px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    color: #dedede;
+    padding: 0 10px;
+}
+
+/* Data table styles */
+table.data {
+    font-size: 12px;
+    margin: auto;
+    background-color: #ccc;
+}
+
+table.data th {
+    text-align: center;
+    font-weight: 700;
+}
+
+table.data th.header {
+    background-image: url(datatitlebg.png);
+    height: 20px;
+    color: #fff;
+}
+
+table.data th.sub {
+    background-color: #ccc;
+    color: #000;
+    padding: 2px;
+    border-bottom: 1px solid #666;
+}
+
+table.data th.sub_header {
+    background-color: #3c0099;
+    height: 15px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    font-size: 10px;
+}
+
+div.sub-options {
+    padding: 10px;
+}
+
+table.data th {
+    background-color: #516aa2;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding: 3px;
+}
+
+table.data td {
+    text-align: center;
+}
+
+table.data th a {
+    color: #fc3;
+}
+
+table.data a {
+    text-decoration: none;
+    color: #f60;
+    font-weight: 700;
+}
+
+table.data a:hover {
+    text-decoration: none;
+    color: #960;
+}
+
+table.data tr.odd td {
+    background-color: #fff;
+}
+
+table.data tr.even td {
+    background-color: #eee;
+}
+
+table.data tr.expired td {
+    background-color: #666;
+}
+
+table.data td.footer {
+    background-color: #e7e7e7;
+    height: 24px;
+    text-align: center;
+}
+
+table.data td.pager {
+    background-color: #383838;
+    color: #ccc;
+    height: 24px;
+}
+
+table.data td.small {
+    width: 60px;
+}
+
+table.data input.numeric {
+    width: 40px;
+}
+
+table.data input.datepicker {
+    width: 80px;
+}
+
+table.data td.center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.data td img {
+    vertical-align: middle; /* Center the image within the cell */
+}
+
+/* Form input styles */
+table.forms input[type="text"].color,
+table.forms input[type="text"].numeric {
+    width: 80px;
+}
+
+/* Error message style */
+span.error {
+    background-color: #eeecd8;
+    border: 1px solid #cac9bc;
+    margin: 10px;
+    padding: 10px 20px 10px 50px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    background-image: url(error.png);
+    background-position: 10px;
+    background-repeat: no-repeat;
+    color: #8f6e30;
+    line-height: 1.5em;
+    border-radius: 8px;
+}
+
+/* Header cell styles */
+.td-header {
+    background-color: #393939;
+}
